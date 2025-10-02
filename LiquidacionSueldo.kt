@@ -2,7 +2,6 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 //Representa la liquidación de sueldo de un empleado para un período específico.
-
 class LiquidacionSueldo(
     val empleado: Empleado,
     val periodo: String, // Formato "YYYY-MM"
@@ -39,7 +38,7 @@ class LiquidacionSueldo(
         """.trimIndent()
     }
 
-    // El 'companion object' permite llamar a la función 'calcular' sin necesidad de crear una instancia de LiquidacionSueldo.
+    //'companion object' permite llamar a la función 'calcular' sin necesidad de crear una instancia de LiquidacionSueldo.
     companion object {
         //Calcula y crea una nueva instancia de LiquidacionSueldo.
 
@@ -61,4 +60,5 @@ class LiquidacionSueldo(
             )
         }
     }
+
 }
