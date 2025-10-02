@@ -1,5 +1,4 @@
 //Almacena las listas de AFPs, empleados y liquidaciones.
-
 object Repositorio {
     val afps: List<AFP> = listOf(
         AFP("Capital", 0.1144),
@@ -12,4 +11,5 @@ object Repositorio {
     )
     val empleados: MutableList<Empleado> = mutableListOf()
     val liquidaciones: MutableList<LiquidacionSueldo> = mutableListOf()
+
 }
